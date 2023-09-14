@@ -1,0 +1,38 @@
+<svg height="250px" width="250px" xmlns="http://www.w3.org/2000/svg" overflow="visible">
+    <g>
+        <path d="M 125,125
+                 l 0,125
+                 M 125,125
+             l 125,0
+             M 125,125
+             l -125,0
+             M 125,125
+             l 0,-125
+            " 
+        stroke="red" />
+        <path d="M 125,0
+             a 50,50 0 1,0 0,125
+             a 50,50 0 1,1 0,125
+             a 125,125 0 0,0 0,-250
+            " 
+        fill="white"
+        stroke="black"/>
+        <path d="M 125,0
+             a 125,125 0 1,0 0,250
+             a 50,50 0 0,0 0,-125
+             a 50,50 0 0,1 0,-125
+            " 
+        fill="black"
+        stroke="black"/>
+        <circle cx="125" cy="62.5" r="20" fill="black"/>
+        <circle cx="125" cy="187.5" r="20" fill="white"/>
+        <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 125 125"
+                          to="-360 125 125"
+                          dur="100s"
+                          repeatCount="indefinite"/>
+    </g>
+   
+</svg>

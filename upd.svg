@@ -1,0 +1,33 @@
+<svg height="250px" width="250px" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="125px" cy="125px" r="115" fill="none" stroke="orange" stroke-width="5px"/>
+    <path d="M 206,44
+            a 110 110 -45 0 1 -162,162
+            M 125,125
+            m 40,20
+            l 50,0
+            l 0 ,30
+            l -100,0
+            l 0,-30
+            l 50,0
+            M 125,125"
+            stroke=""
+            fill="orange"
+            fill-rule="evenodd"/>
+    <path d="M 125,125
+             m -40,-30
+             l 50,0
+             l 0,-33
+             l -33,0
+             l 0,-33
+             l -33,0
+             l 0,33
+             l -33,0
+             l 0,33
+             l 33,0
+             l 0,33
+             l 33,0
+             l 0,-33"
+            stroke=""
+            fill="orange"
+            fill-rule="evenodd"/>
+    </svg>

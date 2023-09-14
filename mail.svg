@@ -1,0 +1,20 @@
+<svg height="512" width="512" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="256" cy="256" r="256" fill="rgb(153, 86, 223)"/>
+    <circle cx="256" cy="256" r="1" fill="white"/>
+    <polyline points="380,180
+                    380,80
+                    132,80
+                    256,265
+                    132,432
+                    380,432
+                    380,80
+                    132,80
+                    132,432
+                    "
+    stroke="white"
+    stroke-width="50"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none" transform="rotate(90,256,256)">
+    </polyline>
+</svg>

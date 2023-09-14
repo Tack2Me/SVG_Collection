@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="15" width="15">
+    <style>
+        path{
+            fill:none;
+            stroke-width: 1.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+    </style>
+    <path id="asc"
+        d="m 4.5 1.5
+            l 0 12
+            M 1.5 10.5
+            l 3 3
+            l 3 -3"
+        stroke="gainsboro">
+    </path>
+    <path id="desc"
+        d="m 10.5 1.5
+            l 0 12
+            M 13.5 4.5
+            l -3 -3
+            l -3 3"
+        stroke="gainsboro">
+    </path>
+    <script>
+        const asc=document.getElementById("asc");
+        const desc=document.getElementById("desc");
+        const svg=asc.closest("svg");
+        let flg=0;
+        svg.onclick=()=>{
+            if(flg){
+                asc.setAttribute("stroke","dimgray");
+                desc.setAttribute("stroke","gainsboro");
+            }else{
+                asc.setAttribute("stroke","gainsboro");
+                desc.setAttribute("stroke","dimgray");
+            }
+            flg=!flg;
+        }
+    </script>
+</svg>

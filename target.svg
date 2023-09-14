@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44">
+    <circle cx="21" cy="21" r="20" fill="black"></circle>
+    <circle cx="21" cy="21" r="16" fill="white"></circle>
+    <circle cx="21" cy="21" r="12" fill="black"></circle>
+    <circle cx="21" cy="21" r="8" fill="white"></circle>
+    <circle cx="21" cy="21" r="4" fill="red"></circle>
+    <!--<circle cx="21" cy="21" r="20" fill="dimgray"></circle>-->
+</svg>
